@@ -1,7 +1,7 @@
 
 # portfolio-mobile-first-project
 
-The aim of this project is to build the first 2 sections of the mobile website using the template from Figma.
+The aim of this project is to build the first 2 sections of the homepage of mobile-first portfolio using the template from Figma.
  ## Built With
  * Html
  * CSS
