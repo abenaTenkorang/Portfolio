@@ -32,7 +32,7 @@ body {
 }
 
 .header-section {
-  background-image: url(../images/bg-image.png);
+  background-image: url(./images/bg-image.png);
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -40,6 +40,7 @@ body {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
+  border-radius: ;
 }
 
 .image1 {
