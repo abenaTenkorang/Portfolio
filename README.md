@@ -1,5 +1,5 @@
 
-# portfolio-mobile-first-project
+# homepage of portfolio-mobile-first-project
 
 The aim of this project is to build the first 2 sections of the homepage of mobile-first portfolio using the template from Figma.
  ## Built With
