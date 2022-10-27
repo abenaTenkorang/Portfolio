@@ -40,7 +40,7 @@ body {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
-  border-radius: ;
+  
 }
 
 .image1 {
@@ -73,6 +73,7 @@ body {
   line-height: 24px;
   width: 327px;
   color: #344563;
+  margin: 15px 0;
 }
 
 .header-ref {
