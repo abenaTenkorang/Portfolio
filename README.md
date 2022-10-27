@@ -1,26 +1,51 @@
 
-# homepage of portfolio-mobile-first-project
+- microverseinc
 
-The aim of this project is to build the first 2 sections of the homepage of mobile-first portfolio using the template from Figma.
- ## Built With
- * Html
- * CSS
+## 📝 License
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
- ## Getting Started
- This is an example of how you may give instructions on setting up your project locally. 
+> A simple microverse project.
 
-Author
- 👤 Abigail
+## Built With
 
-GitHub: @https://github.com/abenaTenkorang
+- HTML and CSS
 
-Twitter: https://twitter.com/home
+## Getting Started
 
-LinkedIn: https://www.linkedin.com/feed/
+Download or clone the project. Open it in you preferred editor and run test it in your browser.
 
+## To get a local copy up and running follow these simple example steps.
 
- ## Contributing
- Contributions, issues, and feature requests are welcome!
+1. Download VS Code
 
-Feel free to check the [issue](https://github.com/abenaTenkorang/Hello-World/issues) page
+2. Clone this project
+
+3. Open it in VS Code
+
+4. Run tests
+
+5. Deployment
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
+- Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
+- LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-boateng-345395141/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/](https://github.com/abenaTenkorang/portfolio-mobile-first-project/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+This project is [MIT](./LICENSE) licensed.
+
 
