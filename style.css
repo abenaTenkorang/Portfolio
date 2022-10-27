@@ -1,29 +1,99 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
-.navbar{
-    background-color: #FFFFFF;
-    height: 92px;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+.navbar {
+  background-color: #fff;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .logo {
-    font-size: 18px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    color: #6070FF;
-    text-decoration: none;
-    width: 100px;
-    height: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
+  text-decoration: none;
+  width: 100px;
+  height: 24px;
 }
 
+.material-icon {
+  width: 24px;
+  height: auto;
+}
 
+.header-section {
+  background-image: url(../images/bg-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+}
+
+.image1 {
+  width: 100%;
+}
+
+.image2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  width: 327px;
+  margin-top: -50px;
+  color: #172b4d;
+}
+
+.header-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 327px;
+  color: #344563;
+}
+
+.header-ref {
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 170.17px;
+  height: 20px;
+}
+
+.image-social {
+  width: 20px;
+  height: 20px;
+}
