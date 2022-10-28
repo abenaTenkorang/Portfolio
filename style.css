@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #e5e5e5;
 }
 
 .navbar {
@@ -40,6 +41,8 @@ body {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
+  border-bottom-left-radius: 60px;
+  background-color: #fff;
 }
 
 .image1 {
@@ -72,7 +75,6 @@ body {
   line-height: 24px;
   width: 327px;
   color: #344563;
-  margin: 15px 0;
 }
 
 .header-ref {
@@ -98,3 +100,90 @@ body {
   width: 20px;
   height: 20px;
 }
+/*css for work*/
+.work {
+   display: grid;
+   background: #DFE1E6;
+   margin-top: 114px;
+   justify-content: center;
+   padding: 30px;
+}
+
+.card-work {
+  background: #fff;
+  border-radius: 10px;
+  min-height: 3em;
+  border: 1px solid #c6c6c6;
+  padding: 20px 15px;
+  display: grid;
+}
+  
+.my-work {
+  width: 325px;
+  height: 220px;
+  align-items: center;
+}
+
+.my-details {
+  align-self: center;
+  padding: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.work-title {
+  width: 295px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.work-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px; 
+  width: 236px;
+  height: 32px;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.work-info-item {
+  list-style-position: inside;
+}
+
+.work-info-item:first-child{
+  color: #344563;
+}
+
+.work-info-item:last-child {
+  color: #7a869a;
+}
+
+.primary-text{
+  color: #344563;
+}
+
+.tags {
+display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.tags > li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  background: #EBEBFF;
+  border-radius: 8px;
+
+}
+  
