@@ -284,9 +284,7 @@ body {
     height: 552px;
     border: 1px solid #DFE1E6;
   }
-}
-
-.top-section{
+.top-section {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -298,7 +296,7 @@ body {
   background-color: #fff;
 }
 
-.top-title{
+.top-title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -334,11 +332,123 @@ body {
   margin-top: 15px;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
 .ctb-btn {
   padding: 12px;
-  gap: 10px;
-  width: 162px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
-  list-style-type: none;
+  text-decoration: none;
+}
+
+.lang-title {
+  margin-top: 40px;
+  margin-bottom: 36px;
+  color: #000;
+  height: 24px;
+  padding-left: 12px;
+  padding-right: 78px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.about-me-list-item {
+  list-style: none;
+  align-content: center;
+  padding: 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+  width: 327px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.js-image {
+  margin-left: -22px;
+  margin-right: 16px;
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  border: 1px solid #ffffff;
+}
+
+.techies {
+  margin-top: 36px;
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.techies-title {
+  margin-bottom: 23px;
+  color: #000;
+  height: 24px;
+  padding-left: 12px;
+  padding-right: 78px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.forward-arrow {
+  width: 24px;
+  height: 20px;
+  margin-left: 30px;
+  color: #000;
+  align-items: flex-end;
+}
+
+.skills-techies {
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-title {
+  margin-top: -15px;
+  margin-bottom: 23px;
+  color: #000;
+  height: 24px;
+  padding-left: 12px;
+  padding-right: 78px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.techies-forward-arrow {
+  margin-top: -15px;
+  margin-bottom: 23px;
+  width: 24px;
+  height: 20px;
+  color: #000;
+  align-items: flex-end;
+  margin-left: 100px;
+}
+
+.hr {
+  background: #dfe1e6;
+  height: 2px;
+  width: 100%;
+  border-width: 0;
+}
 }
