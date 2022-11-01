@@ -437,3 +437,83 @@ ul li {
   height: 2px;
   width: 100%;
 }
+
+.contact-section {
+  background: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background: #6070ff;
+  background-image: url(./images/contact-me.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid white;
+  border-top-left-radius: 110px;
+  padding: 114px 24px;
+}
+
+.con-title {
+  color: #fcfcfc;
+  justify-content: center;
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 40px;
+  font-family: Poppins, sans-serif;
+  margin: 150px auto 12px;
+}
+
+.con-paragraph {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+ 
+}
+
+.con-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 15px;
+}
+
+.form-text {
+  border: 1px solid white;
+  border-radius: 8px;
+  height: 48px;
+  width: 327px;
+  align-self: center;
+  padding: 15px;
+  font-family: Poppins, sans-serif;
+}
+
+.form-text-area {
+  border: 1px solid white;
+  border-radius: 8px;
+  align-self: center;
+  padding: 15px;
+  font-family: Poppins, sans-serif;
+  height: 170px;
+  width: 327px;
+}
+
+.con-but {
+  width: 140px;
+  height: 48px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #4472e7;
+  display: flex;
+  justify-content: center;
+  align-self:center;
+}
