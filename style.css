@@ -449,17 +449,16 @@ ul li {
   background: #6070ff;
   background-image: url(./images/contact-me.png);
   background-repeat: no-repeat;
-  background-position: right;
-  border: 1px solid white;
+  border: 5px solid white;
   border-top-left-radius: 110px;
-  padding: 114px 24px;
+  padding: 20px 12px;
 }
 
 .con-title {
   color: #fcfcfc;
   justify-content: center;
   font-weight: bold;
-  line-height: 40px;
+  line-height: 30px;
   font-size: 40px;
   font-family: Poppins, sans-serif;
   margin: 150px auto 12px;
@@ -473,7 +472,8 @@ ul li {
   justify-content: center;
   text-align: center;
   font-weight: normal;
- 
+  margin-bottom: 50px;
+  margin: 12px auto 10px;
 }
 
 .con-form {
