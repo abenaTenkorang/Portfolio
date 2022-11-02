@@ -438,22 +438,23 @@ ul li {
   width: 100%;
 }
 
-.contact-section {
-  background: #fff;
+.contact-me {
+  background-image: url(./images/01.jpg);
+  padding-top: 2.5em;
+  background-repeat: no-repeat;
 }
-
 .contact-form {
   display: flex;
   flex-direction: column;
   justify-content: start;
   background: #6070ff;
-  background-image: url(./images/contact-me.png);
+  background-image: url(./images/00.jpg);
   background-repeat: no-repeat;
-  border: 5px solid white;
   border-top-left-radius: 110px;
   padding: 20px 12px;
+  width: 375px;
 }
-
+  
 .con-title {
   color: #fcfcfc;
   justify-content: center;
@@ -472,7 +473,6 @@ ul li {
   justify-content: center;
   text-align: center;
   font-weight: normal;
-  margin-bottom: 50px;
   margin: 12px auto 10px;
 }
 
@@ -491,6 +491,7 @@ ul li {
   align-self: center;
   padding: 15px;
   font-family: Poppins, sans-serif;
+  color: #172b4d;
 }
 
 .form-text-area {
@@ -501,6 +502,8 @@ ul li {
   font-family: Poppins, sans-serif;
   height: 170px;
   width: 327px;
+  color: #B3BAC5;
+
 }
 
 .con-but {
