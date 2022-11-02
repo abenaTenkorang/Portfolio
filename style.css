@@ -441,19 +441,19 @@ ul li {
 .contact-section {
   width: 375px;
   height: 779px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .contact-me {
   display: flex;
   flex-direction: column;
-  background: #6070FF;
+  background: #6070ff;
   width: 375px;
   align-self: flex-end;
   height: 779px;
   border-top-left-radius: 60px;
   background-image: url(./images/contact-me.png);
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: 260px 700px;
   background-position: right;
 }
@@ -488,7 +488,8 @@ ul li {
   gap: 20px;
 }
 
-.form-text, .form-text-area {
+.form-text,
+.form-text-area {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -496,7 +497,7 @@ ul li {
   padding-left: 16px;
 }
 
-.form-text{
+.form-text {
   height: 48px;
 }
 
@@ -544,9 +545,8 @@ ul li {
 #submit:hover {
   color: #fff;
   background-color: #9ba4f0;
-  }
+}
 
 #submit:active {
   color: white;
 }
-
