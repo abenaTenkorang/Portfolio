@@ -17,6 +17,10 @@ body {
   padding: 20px;
 }
 
+.nav_items {
+  display: none;
+}
+
 .logo {
   font-size: 18px;
   font-weight: 700;
@@ -108,19 +112,23 @@ ul li {
 
 .all-cards {
   display: grid;
+  padding: 25px 0 ;
 }
 
 .my-design {
-  background-color: #fff;
+  background-color:#fff;
   margin-top: 114px;
   margin-bottom: 24px;
   margin-right: 24px;
   margin-left: 24px;
   border-radius: 20px;
-  width: 327px;
-  height: 552px;
+  min-width: 327px;
+  min-height: 552px;
   border: 1px solid #dfe1e6;
   display: flex;
+  overflow: hidden;
+  padding: 25px;
+ 
 }
 
 .design-outer {
@@ -550,3 +558,124 @@ ul li {
 #submit:active {
   color: #fff;
 }
+
+@media screen and (max-width: 480px){
+  .first-work-one {
+      max-width: 100%;
+     }
+  } 
+ 
+   
+  
+
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0 50px;
+    background-color: white;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .nav_items {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: row;
+    gap: 30px;
+    margin: 12px 100px;
+  }
+
+  .nav_item_1 {
+   text-decoration: none;
+   color: #344563;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 20px;
+  }
+ 
+.header-section {
+  width: 100%;
+  background-image: url(./images/Header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 200px;
+  justify-content: center;
+}
+
+.header-container {
+  align-self: center;
+  justify-self: center;
+  width: 920px;
+}
+
+.header-title {
+  width: 329px;
+}
+.header-paragraph{
+  width: 689px;  
+}
+ .outer {
+  margin-left: 50px;
+  padding-left: 104px;
+ }
+
+ .all-cards {
+  padding: 0 50px;
+ }
+
+ .my-design {
+  width: 100%;
+  height: initial;
+  min-height: 550px;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+ }
+
+ .my-design:nth-child(even) .card-image {
+  order: 2;
+ }
+
+ .card-content {
+  margin-left: 10px;
+ }
+
+ .first-work-one {
+  max-width: 100%;
+ }
+
+ .first-card {
+  display: flex;
+  flex-direction: row;
+ }
+
+ .card_body {
+  display: flex;
+  flex-direction: row;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
