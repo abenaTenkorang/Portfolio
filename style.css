@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +36,7 @@ body {
   width: 24px;
   height: auto;
 }
-
+/*header section*/
 .header-section {
   background-image: url(./images/bg-image.png);
   background-position: center;
@@ -188,6 +189,7 @@ ul li {
   line-height: 24px;
   color: #344563;
   margin-top: 20px;
+  padding-bottom: 100px;
 }
 
 .card-list {
@@ -291,7 +293,7 @@ ul li {
   border: 1px solid #dfe1e6;
   display: flex;
 }
-
+ 
 .top-section {
   background-position: center;
   background-repeat: no-repeat;
@@ -575,6 +577,13 @@ ul li {
     background-color: white;
   }
 
+  .header-flex {
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin: 0px 10% 0 22%
+  }
+
   .menu-icon {
     display: none;
   }
@@ -601,6 +610,7 @@ ul li {
   background-image: url(./images/Header-bg.png);
   background-position: center;
   background-repeat: no-repeat;
+  /*background-size: 100%;*/
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -620,17 +630,19 @@ ul li {
 .header-paragraph{
   width: 689px;  
 }
- .outer {
-  margin-left: 50px;
+ /*.outer {
+ margin-left: -35px;
   padding-left: 104px;
- }
+ }*/
 
  .all-cards {
   padding: 0 50px;
  }
 
  .my-design {
-  width: 100%;
+  width: 70%;
+  margin: auto;
+  margin: 110px 13px 0px 255px;
   height: initial;
   min-height: 550px;
   color: #fff;
@@ -646,7 +658,7 @@ ul li {
  }
 
  .card-content {
-  margin-left: 10px;
+  margin-left: 50px;
  }
 
  .first-work-one {
@@ -662,6 +674,142 @@ ul li {
   display: flex;
   flex-direction: row;
  }
+  .card-description {
+    padding-bottom: 120px;
+  }
+
+ .top-section {
+    background-color: white;
+    border-top-right-radius: 90px;
+    padding-top: 200px;
+    height: 900px;
+ }
+  
+  .about{
+    width: 440px;
+    display: block;
+    height: 102px;
+   }
+
+   .header-paragraph {
+    width: 100%;
+   }
+
+   #top-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 50px;
+    height: 924px;
+    width: 1440px;
+    margin-left: 104px;
+    margin-right: 104px;
+   }
+   .top-title {
+    width: 264px;
+    padding-top: 60px;
+   }
+
+   .btn-container {
+    padding-top: 35px;
+   }
+
+   #lang-lang {
+   display: flex;
+   flex-direction: row;
+   }
+
+   .about-me-list {
+    display: inline;
+   }
+
+   .about-me-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.about-me-list-item {
+  list-style: none;
+  align-content: center;
+  padding: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+  width: 122px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  flex-direction: column;
+}
+
+.js-image {
+  margin-left: 0;
+}
+
+.techies {
+  margin-top: 36px;
+  padding-left: 12px;
+  width: 100%;
+  list-style: none;
+}
+
+.techies-title {
+  margin-bottom: 23px;
+  color: #000;
+  height: 24px;
+  padding-left: 12px;
+  padding-right: 78px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  width: 70%;
+}
+
+.contact-section {
+width: 100%;
+}
+
+.contact-me {
+  width: 100%;
+  padding-left: 33%;
+  padding-right: 33%;
+}
+
+.con-paragraph {
+  width: 100%;
+  height: 102px;
+  padding-left: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-right: 45px;
+}
+
+.con-but {
+  padding: 12px 16px;
+  width: 140px;
+  height: 48px;
+  margin-left: 40%;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  list-style-type: none;
+}
+
+  }
+   
+
+
+ 
+
 
  
 
@@ -677,5 +825,5 @@ ul li {
 
 
 
-}
+
 
