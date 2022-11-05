@@ -659,6 +659,10 @@ ul li {
     max-width: 100%;
   }
 
+  .card-content:nth-child(even) .card-title {
+    margin-right: 100px;
+  }
+
   .first-card {
     display: flex;
     flex-direction: row;
@@ -678,6 +682,7 @@ ul li {
     border-top-right-radius: 90px;
     padding-top: 200px;
     height: 900px;
+    margin-top: 130px;
   }
 
   .about {
@@ -689,9 +694,9 @@ ul li {
   #top-top {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 25px 50px;
+    padding: 25px 215px;
     height: 924px;
-    width: 1440px;
+    width: 1407px;
     margin-left: 104px;
     margin-right: 104px;
   }
