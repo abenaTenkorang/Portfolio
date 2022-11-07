@@ -44,6 +44,7 @@ Download or clone the project. Open it in you preferred editor and run test it i
 
 
 ## Online version 
+
 https://abenatenkorang.github.io/portfolio-mobile-first-project/
 
 
@@ -70,5 +71,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 This project is [MIT](./LICENSE) licensed.
+
 
 
