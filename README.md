@@ -42,6 +42,11 @@ Download or clone the project. Open it in you preferred editor and run test it i
 
 5. Deployment
 
+
+## Online version 
+https://abenatenkorang.github.io/portfolio-mobile-first-project/
+
+
 ## Authors
 
 👤 **Author1**
@@ -53,6 +58,8 @@ Download or clone the project. Open it in you preferred editor and run test it i
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+
 
 Feel free to check the [issues page](../../issues/](https://github.com/abenaTenkorang/portfolio-mobile-first-project/issues).
 
