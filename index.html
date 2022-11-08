@@ -345,15 +345,19 @@
       class="con-form"
       id="form"
     >
+      <label for="fname" hidden></label>
       <input
-        type="text"
-        name="_name"
-        placeholder="Yeremias"
-        maxlength="30"
-        class="form-text"
-        id="fname"
-        required
+      type="text"
+      name="_name"
+      placeholder="Yeremias"
+      maxlength="30"
+      class="form-text"
+      id="fname"
+      required
       />
+     
+      
+      <label for="email" hidden></label>
       <input
         type="email"
         name="_reply"
@@ -362,15 +366,18 @@
         id="email"
         required
       />
+     
     
+      <label for="textarea" hidden></label>
       <textarea
-        name="_message"
-        placeholder="Write your message here"
-        maxlength="500"
-        class="form-text-area"
-        id="textarea"
-        required
+      name="_message"
+      placeholder="Write your message here"
+      maxlength="500"
+      class="form-text-area"
+      id="textarea"
+      required
       ></textarea>
+      
     
       <li  class="con-but">
         <button id="submit" type="submit">
