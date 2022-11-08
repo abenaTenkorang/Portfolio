@@ -59,6 +59,9 @@ https://abenatenkorang.github.io/portfolio-mobile-first-project/
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+**Collaborator**
+- GitHub: [@shegy28](https://github.com/shegy28/)
+- Twitter: [@shegy28](https://twitter.com/shegy28)
 
 
 
