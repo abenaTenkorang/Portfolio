@@ -617,14 +617,6 @@ ul li {
     line-height: 20px;
   }
 
-  a {
-    font-size: 30px;
-  }
-
-  .logo {
-    font-size: 30px;
-  }
-
   .header-section {
     width: 100%;
     background-image: url(./images/Header-bg.png);
