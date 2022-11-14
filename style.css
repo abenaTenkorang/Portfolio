@@ -67,12 +67,11 @@ body {
 
 .close-icon {
   display: none;
-  background: #6070ff;
   color: #fff;
 }
 
 .menu {
-  position: absolute;
+  position: fixed;
   transform: translateY(-100%);
   transition: transform 0.2s;
   top: 0;
@@ -81,12 +80,13 @@ body {
   bottom: 0;
   z-index: 99;
   background: #6070ff;
-  opacity: 0.9;
+  opacity: 0.967;
   color: white;
   list-style: none;
   padding-top: 4rem;
   padding-left: 2rem;
   gap: 12px;
+  position: fixed;
 }
 
 .showMenu {
