@@ -84,8 +84,7 @@ body {
   padding-top: 4rem;
   padding-left: 2rem;
   gap: 12px;
-  backdrop-filter: blur(5px); 
-
+  backdrop-filter: blur(5px);
 }
 
 .showMenu {
