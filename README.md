@@ -62,6 +62,8 @@ Contributions, issues, and feature requests are welcome!
 **Collaborator**
 - GitHub: [@shegy28](https://github.com/shegy28/)
 - Twitter: [@shegy28](https://twitter.com/shegy28)
+- Github: [@Franky237](https://github.com/Franky237)
+- LinkedIn [@FrankzFuhnwi](https://www.linkedin.com/in/frankz-fuhnwi-21b59b223/)
 
 
 
