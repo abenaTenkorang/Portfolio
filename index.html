@@ -22,20 +22,37 @@
   <header class="header">
     <nav class="navbar">
         <div class="logo-trans"><a href="#" class="logo">Abi</a></div>
-        <div class="menu-icon">
-          <i class="material-icons">menu</i>
+        <div class="hamburger">
+          <i class="menu-icon material-icons">menu</i>
+          <i class="close-icon material-icons" style="display: none">close</i>
         </div>
+
         <ul class="nav_items">
           <li class="nav_item">
-            <a class="nav_item_1" href="#portfolio">Portfolio</a>
+            <a class="nav_item_1" href="#all-cards">Portfolio</a>
           </li>
           <li class="nav_item">
-            <a class="nav_item_1" href="#about">About</a>
+            <a class="nav_item_1" href="#about-myself">About</a>
           </li>
           <li class="nav_item">
-            <a class="nav_item_1" href="#contact">Contact</a>
+            <a class="nav_item_1" href="#contact-me">Contact</a>
           </li>
         </ul>
+
+        <!-- mobile nav -->
+        <ul class="menu">
+          <li>
+            <a class="menu-item" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="menu-item" href="#about-myself">About</a>
+          </li>
+          <li>
+            <a class="menu-item" href="#contact-me">Contact</a>
+          </li>
+        </ul>
+
+
     </nav>    
   </header> 
 
@@ -84,7 +101,7 @@
     </section>
 
     <!-- My First design -->
-<section class="all-cards">
+<section class="all-cards" id="portfolio">
 
   <article class="my-design">
     <div class="first-card">
@@ -241,7 +258,7 @@
 </section>
 
 <!-- top section -->
-<section class="top-section">
+<section class="top-section" id="about-myself">
   <div id="top-top">
     <div class="about">
         <h2 class="top-title "> About Myself</h2>
@@ -330,7 +347,7 @@
 </section> 
 
 <!--Contact me section  -->
-<section class="contact-section">
+<section class="contact-section" id="contact-me">
   <div class="contact-me">
     <div class="contact-form">
       <h2 class="con-title">Contact me</h2>
@@ -387,6 +404,9 @@
     </form>
   </div>
 </section>
+
+
+<script src="./index.js"></script>
 
 
 </body>
