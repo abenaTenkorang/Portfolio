@@ -59,8 +59,6 @@ body {
   right: 1rem;
   padding: 0;
   border: #fff;
-
-  /* background: white; */
   cursor: pointer;
   color: #6070ff;
 }
@@ -86,7 +84,6 @@ body {
   padding-top: 4rem;
   padding-left: 2rem;
   gap: 12px;
-  position: fixed;
 }
 
 .showMenu {
