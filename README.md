@@ -9,51 +9,47 @@
 ## Built With
 
 ## Getting started
-Step 1:if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
+Step 1:
+Clone this repo locally using git in the command line and the following command
 
-Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
+```
+git clone https://github.com/abenaTenkorang/portfolio.git
+```
 
+Alternatively, you can just download the complete zip file and extract the folder in your directory
 
-`git clone <your project link>`
-
-Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
-
-Step 2: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
+Step 2:
+Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 
 
 To get a local copy up and running follow these simple example steps.
 Clone the repo named "portfolio"
 
-- HTML and CSS
+## Live Demo Link
 
-## Getting Started
+Access the the online version of my application with this link
+[Live Demo](https://abenaTenkorang.github.io/portfolio/)
 
-Download or clone the project. Open it in you preferred editor and run test it in your browser.
 
-## To get a local copy up and running follow these simple example steps.
+## Build With
 
-1. Download VS Code
+- Editor : Visual studio code
 
-2. Clone this project
-
-3. Open it in VS Code
-
-4. Run tests
-
-5. Deployment
+- Languages 
+  - [ ] HTML
+  - [ ] CSS
+  - [ ] JavaScript
 
 ## Walkthrough video
 https://www.loom.com/share/6e0edae4759c4584b68ecd13aefc79ce
 
 
-## Online version 
 
-https://abenatenkorang.github.io/Portfolio/
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Abigail Gyamfuaa Boateng**
 
 - GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
 - Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
@@ -62,6 +58,8 @@ https://abenatenkorang.github.io/Portfolio/
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+
 **Collaborator**
 - GitHub: [@shegy28](https://github.com/shegy28/)
 - Twitter: [@shegy28](https://twitter.com/shegy28)
@@ -70,7 +68,7 @@ Contributions, issues, and feature requests are welcome!
 
 
 
-Feel free to check the [issues page](../../issues/](https://github.com/abenaTenkorang/portfolio-mobile-first-project/issues).
+Feel free to check the [issues page](../../issues/](https://github.com/abenaTenkorang/portfolio-project/issues).
 
 ## Show your support
 
