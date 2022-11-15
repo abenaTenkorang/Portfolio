@@ -28,7 +28,7 @@ Clone the repo named "portfolio"
 ## Live Demo Link
 
 Access the the online version of my application with this link
-[Live Demo](https://abenaTenkorang.github.io/portfolio/)
+[Live Demo](https://abenatenkorang.github.io/Portfolio/)
 
 
 ## Build With
