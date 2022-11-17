@@ -258,14 +258,14 @@ ul li {
 
 .card-list {
   display: flex;
+  gap: 12px;
   list-style-type: none;
   margin-bottom: 12px;
 }
 
-.card-list-tags-html {
+.card-list-tags {
   color: #6070ff;
-  width: 53px;
-  height: 24px;
+  width: max-content;
   background: #ebebff;
   border-radius: 8px;
   text-align: center;
@@ -273,8 +273,6 @@ ul li {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  margin-top: 12px;
-  margin-right: 8px;
 }
 
 .card-list-tags-css {
