@@ -2,7 +2,7 @@ const data = [
   {
     id: "project-1",
     title: "Tonic",
-    canopy: "My-Canopy",
+    canopy: "Canopy",
     card_list: ["html", "css", "javascript", "python"],
     image: "images/one.png",
     about:
@@ -75,18 +75,13 @@ const myHtmlArticle = (myObj) => {
              
             </ul>
 
-            <div>
-                    <a href="#"  onclick="openPopup()">
-                        <button type="submit" class="card-link">
-                        See Project
-                        </button>
-                    </a>
-                </div>
-            <div>
-                  <button class="" onclick="openPopup()">
-                      <a href="#">See Project</a>
-                  </button>
-            </div>
+            <div class="button">
+            <a href="#"  onclick="openPopup()">
+                <button type="submit" class="card-link">
+                See Project
+                </button>
+            </a>
+             </div>
 
           </div>
         </div>
@@ -106,22 +101,24 @@ function openPopup() {
     <div class="popup"> 
         <div id="desktop-popup" class="">
             <div class="info-header popup-header">
-                <h4 class="tonic">Uber Navigation
-                </h4>
-                <img src="./images/popup=x-Icon.png" alt="popup-x icon" class="popup-header-image" onclick="closePopup()">
+                <h2 class="tonic">Uber Navigation
+                </h2>
+                <img src="./images/Icon.png" alt="popup-x icon" class="popup-header-image" onclick="closePopup()">
             </div>
-            <div class="info-icons">
-                <h4 class="info-icons-p1">Uber</h4>
-                <img src="./images/Counter.png" alt="dot">
-                <h4 class="info-icons-p2">Lead Developer</h4>
-                <img src="./images/Counter.png" alt="dot">
-                <h4 class="info-icons-p2">2018</h4>
+            <div class="card-content">
+            <div class="card-info">
+              <p class="card-info-item-canopy">CANOPY</p>
+              <img class="circle-img" src="./images/circle.png" alt="Circle">
+              <p class="card-info-item">Back End Dev</p>
+              <img class="circle-img" src="./images/circle.png" alt="Circle">
+              <p class="card-info-item">2015</p>
             </div>
+            
             <div id="desktop-popup" class="popup-img1">
-                <img src="./images/popup desktop.png" alt="popup image 1">
+                <img src="./images/one.png" alt="popup image 1">
             </div>
             <div id="mobile-popup" class="popup-img2">
-                <img src="./images/Snapshoot Portfolio.png" alt="popup image 1">
+                <img src="./images/one.png" alt="popup image 1">
             </div>
             <div class="popup-text">
                 <div class="popup-body">
@@ -147,16 +144,15 @@ function openPopup() {
                         <a href="#">
                             <button type="submit" class="see-project pop-button">
                             See Live
-                            <img src="./images/button Icon.png" alt="">
+                            <img src="./images/g.png" alt="">
                             </button>
                         </a>
                         <button type="submit" class="see-project pop-button">
                             See Source
-                            <img src="./images/button Vector.png" alt="">
+                            <img src="./images/h.png" alt="">
                             </button>
                         </a>
                     </div>
-                    
                 </div>
                 <div id ="mobile-popup-langs"class="popup-langs">
                     <div id="lang">
