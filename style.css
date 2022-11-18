@@ -217,7 +217,7 @@ ul li {
 
 .card-info {
   display: flex;
-  margin-top: 60px;
+  margin-top: 47px;
   margin-bottom: 20px;
 }
 
@@ -262,7 +262,7 @@ ul li {
   display: flex;
   gap: 12px;
   list-style-type: none;
-  margin: 20px 0 22px 0;
+  margin: 0px 0 22px 0;
 }
 
 .card-list-tags {
@@ -670,13 +670,13 @@ ul li {
   position: fixed;
   height: 90vh;
   top: 0;
-  overflow: auto;
 }
 
 .popup-header {
   display: flex;
   justify-content: space-between;
 }
+
 
 .popup-header-image {
   width: 12px;
@@ -698,7 +698,7 @@ ul li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   color: #344563;
 }
@@ -720,7 +720,7 @@ ul li {
   padding: 0;
   gap: 10px;
   width: 253px;
-  height: 24px;
+ 
   list-style: none;
   flex-wrap: wrap;
   margin-bottom: 50px;
@@ -755,6 +755,22 @@ ul li {
   width: 18px;
   height: 18px;
   margin: auto 0;
+}
+
+.see-project {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: white;
+  margin: 20px 0;
+  font-weight: 500;
+  text-decoration: none;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
@@ -850,7 +866,7 @@ ul li {
   }
 
   .card-content {
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   .first-work-one {
@@ -864,6 +880,11 @@ ul li {
   .first-card {
     display: flex;
     flex-direction: row;
+  }
+
+  .tonic{
+    padding-left: 30px;
+    font-size: 40px;
   }
 
   .card_body {
@@ -1035,6 +1056,7 @@ ul li {
     display: flex;
     flex-direction: row;
     gap: 50px;
+    margin-top: 30px;
   }
 
   .popup-body {
@@ -1053,6 +1075,7 @@ ul li {
 
   .mobile-hidden {
     display: none;
+    font-size: 0.8rem;
   }
 
   .popup-lang {
@@ -1110,5 +1133,9 @@ ul li {
     margin: auto 0;
     flex-wrap: wrap;
   }
+
+ 
+
+
 
 }

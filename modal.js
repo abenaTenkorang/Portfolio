@@ -115,10 +115,10 @@ function openPopup() {
             </div>
             
             <div id="desktop-popup" class="popup-img1">
-                <img src="./images/one.png" alt="popup image 1">
+                <img src="./images/Snapshoot Portfolio.png" alt="popup image 1">
             </div>
             <div id="mobile-popup" class="popup-img2">
-                <img src="./images/one.png" alt="popup image 1">
+                <img src="./images/phone.png" alt="popup image 1">
             </div>
             <div class="popup-text">
                 <div class="popup-body">
@@ -155,7 +155,7 @@ function openPopup() {
                     </div>
                 </div>
                 <div id ="mobile-popup-langs"class="popup-langs">
-                    <div id="lang">
+                    <div id="lang" style= "height: 24px;">
                         <ul class="langs">
                             <li>html</li>
                             <li>css</li>
@@ -166,12 +166,12 @@ function openPopup() {
                         <a href="#">
                             <button type="submit" class="see-project pop-button">
                             See Live
-                            <img src="./images/button Icon.png" alt="">
+                            <img src="./images/g.png" alt="">
                             </button>
                         </a>
                         <button type="submit" class="see-project pop-button">
                             See Source
-                            <img src="./images/button Vector.png" alt="">
+                            <img src="./images/h.png" alt="">
                             </button>
                         </a>
                     </div>
