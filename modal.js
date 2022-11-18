@@ -1,52 +1,52 @@
 const data = [
   {
-    id: "project-1",
-    title: "Tonic",
-    canopy: "Canopy",
-    card_list: ["html", "css", "javascript", "python"],
-    image: "images/one.png",
+    id: 'project-1',
+    title: 'Tonic',
+    canopy: 'Canopy',
+    card_list: ['html', 'css', 'javascript', 'python'],
+    image: 'images/one.png',
     about:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required..",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required..',
     card_description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
   {
-    id: "project-2",
-    title: "Multi-Post-Stories",
-    canopy: "Canopy",
-    card_list: ["html", "css", "javascript"],
-    image: "images/two.png",
+    id: 'project-2',
+    title: 'Multi-Post-Stories',
+    canopy: 'Canopy',
+    card_list: ['html', 'css', 'javascript'],
+    image: 'images/two.png',
     about:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required..",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required..',
     card_description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
   {
-    id: "project-3",
-    title: "Facebook 360",
-    canopy: "Canopy",
-    card_list: ["html", "css", "javascript"],
-    image: "images/first-work1.png",
+    id: 'project-3',
+    title: 'Facebook 360',
+    canopy: 'Canopy',
+    card_list: ['html', 'css', 'javascript'],
+    image: 'images/first-work1.png',
     about:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required..",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required..',
     card_description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
   {
-    id: "project-4",
-    title: "Uber Navigation",
-    canopy: "Canopy",
-    card_list: ["html", "css", "javascript"],
-    image: "images/four.png",
+    id: 'project-4',
+    title: 'Uber Navigation',
+    canopy: 'Canopy',
+    card_list: ['html', 'css', 'javascript'],
+    image: 'images/four.png',
     about:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.", 
+      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     card_description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
 ];
 
 const myHtmlArticle = (myObj) => {
-  const article_template = `
+  const articleTemplate = `
         <article class="my-design">
         <div class="first-card">
           <div class="card-image">
@@ -87,12 +87,12 @@ const myHtmlArticle = (myObj) => {
         </div>
       </article>
   `;
-  return article_template;
+  return articleTemplate;
 };
 
-const cardHolder = document.querySelector("#portfolio");
+const cardHolder = document.querySelector('#portfolio');
 data.forEach((elem) => {
-  cardHolder.insertAdjacentHTML("beforeend", myHtmlArticle(elem));
+  cardHolder.insertAdjacentHTML('beforeend', myHtmlArticle(elem));
 });
 
 // Popup section

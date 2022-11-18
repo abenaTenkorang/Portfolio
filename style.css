@@ -181,8 +181,6 @@ ul li {
   padding: 25px 0;
 }
 
-
-
 .my-design {
   background-color: #fff;
   margin-top: 114px;
@@ -262,7 +260,7 @@ ul li {
   display: flex;
   gap: 12px;
   list-style-type: none;
-  margin: 0px 0 22px 0;
+  margin: 0 0 22px 0;
 }
 
 .card-list-tags {
@@ -670,13 +668,13 @@ ul li {
   position: fixed;
   height: 90vh;
   top: 0;
+  overflow: auto;
 }
 
 .popup-header {
   display: flex;
   justify-content: space-between;
 }
-
 
 .popup-header-image {
   width: 12px;
@@ -720,7 +718,6 @@ ul li {
   padding: 0;
   gap: 10px;
   width: 253px;
- 
   list-style: none;
   flex-wrap: wrap;
   margin-bottom: 50px;
@@ -882,7 +879,7 @@ ul li {
     flex-direction: row;
   }
 
-  .tonic{
+  .tonic {
     padding-left: 30px;
     font-size: 40px;
   }
@@ -1133,9 +1130,4 @@ ul li {
     margin: auto 0;
     flex-wrap: wrap;
   }
-
- 
-
-
-
 }
