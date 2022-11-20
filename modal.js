@@ -7,8 +7,6 @@ const data = [
     image: 'images/one.png',
     about:
       'A daily selection of privately personalized reads; no accounts or sign-ups required..',
-    card_description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
   {
     id: 'project-2',
@@ -18,8 +16,6 @@ const data = [
     image: 'images/two.png',
     about:
       'A daily selection of privately personalized reads; no accounts or sign-ups required..',
-    card_description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
   {
     id: 'project-3',
@@ -29,8 +25,6 @@ const data = [
     image: 'images/first-work1.png',
     about:
       'A daily selection of privately personalized reads; no accounts or sign-ups required..',
-    card_description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
   {
     id: 'project-4',
@@ -40,8 +34,6 @@ const data = [
     image: 'images/four.png',
     about:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    card_description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
 ];
 
@@ -98,7 +90,7 @@ data.forEach((elem) => {
 // Popup section
 function openPopup() {
   document.querySelector('#popup-section').innerHTML += `<div class="popup-container">
-    <div class="popup"> 
+    <div class="popup" id="popup"> 
         <div id="desktop-popup" class="">
             <div class="info-header popup-header">
                 <h2 class="tonic">Uber Navigation
@@ -113,10 +105,10 @@ function openPopup() {
               <img class="circle-img" src="./images/circle.png" alt="Circle">
               <p class="card-info-item">2015</p>
             </div>
-            
             <div id="desktop-popup" class="popup-img1">
                 <img src="./images/Snapshoot Portfolio.png" alt="popup image 1">
             </div>
+
             <div id="mobile-popup" class="popup-img2">
                 <img src="./images/phone.png" alt="popup image 1">
             </div>
@@ -184,12 +176,12 @@ function openPopup() {
 </div>`;
 
   document.getElementById('popup-section').style.display = 'block';
-  document.getElementById('container').style.filter = 'blur(7px)';
+  document.getElementById('popup').style.filter = 'blur(7px)';
 }
 openPopup();
 
 function closePopup() {
   document.getElementById('popup-section').style.display = 'none';
-  document.getElementById('container').style.filter = 'blur(0px)';
+  document.getElementById('popup').style.filter = 'blur(0px)';
 }
 closePopup();
