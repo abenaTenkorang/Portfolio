@@ -715,7 +715,7 @@ ul li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
+  padding-top: 10px;
   gap: 10px;
   width: 253px;
   list-style: none;
@@ -739,6 +739,7 @@ ul li {
 .pop-button-div {
   display: flex;
   gap: 15px;
+  justify-content: center;
 }
 
 .pop-button {
