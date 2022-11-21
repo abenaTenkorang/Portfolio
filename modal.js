@@ -1,4 +1,4 @@
-const data = [
+const info = [
   {
     id: 'project-1',
     title: 'Tonic',
@@ -83,7 +83,7 @@ const myHtmlArticle = (myObj) => {
 };
 
 const cardHolder = document.querySelector('#portfolio');
-data.forEach((elem) => {
+info.forEach((elem) => {
   cardHolder.insertAdjacentHTML('beforeend', myHtmlArticle(elem));
 });
 
