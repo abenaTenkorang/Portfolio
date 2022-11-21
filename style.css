@@ -53,7 +53,7 @@ body {
   height: auto;
 }
 
-.hamburger {
+.hamburger-icon {
   z-index: 100;
   top: 1rem;
   right: 1rem;
@@ -799,7 +799,7 @@ ul li {
     margin: 0 10% 0 22%;
   }
 
-  .hamburger {
+  .hamburger-icon {
     display: none;
   }
 
