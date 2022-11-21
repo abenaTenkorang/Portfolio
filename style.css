@@ -770,6 +770,15 @@ ul li {
   line-height: 24px;
   cursor: pointer;
 }
+.pop-button:hover {
+  background: #0f1c94;
+  color: white;
+}
+
+.pop-button:active {
+  background: #0f1c94;
+  color: white;
+}
 
 @media screen and (max-width: 480px) {
   .first-work-one {

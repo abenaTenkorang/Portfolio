@@ -133,7 +133,7 @@ function openPopup() {
                         </ul>
                     </div>
                     <div class="pop-button-div">
-                        <a href="#">
+                     
                             <button type="submit" class="see-project pop-button">
                             See Live
                             <img src="./images/g.png" alt="">
