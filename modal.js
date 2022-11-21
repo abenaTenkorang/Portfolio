@@ -138,12 +138,11 @@ function openPopup() {
                             See Live
                             <img src="./images/g.png" alt="">
                             </button>
-                        </a>
+                      
                         <button type="submit" class="see-project pop-button">
                             See Source
                             <img src="./images/h.png" alt="">
                             </button>
-                        </a>
                     </div>
                 </div>
                 <div id ="mobile-popup-langs"class="popup-langs">
@@ -155,12 +154,12 @@ function openPopup() {
                         </ul>
                     </div>
                     <div class="pop-button-div">
-                        <a href="#">
+                       
                             <button type="submit" class="see-project pop-button">
                             See Live
                             <img src="./images/g.png" alt="">
                             </button>
-                        </a>
+                       
                           <button type="submit" class="see-project pop-button">
                             See Source
                             <img src="./images/h.png" alt="">
