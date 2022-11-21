@@ -769,6 +769,16 @@ ul li {
   cursor: pointer;
 }
 
+.pop-button:hover {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  padding: 10px 25px;
+  flex-wrap: wrap;
+  background: #0f1c94;
+  color: white;
+}
+
 .er-msg {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
