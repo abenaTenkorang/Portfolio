@@ -191,11 +191,11 @@ closePopup();
 
 const form = document.getElementById('form');
 const email = document.getElementById('email');
-const errormsg = document.getElementById('error');
+const ermsg = document.getElementById('error');
 
 form.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
-    errormsg.style.display = 'block';
+    ermsg.style.display = 'block';
     e.preventDefault();
   }
 });
