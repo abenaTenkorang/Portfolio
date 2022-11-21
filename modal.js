@@ -87,7 +87,7 @@ data.forEach((elem) => {
   cardHolder.insertAdjacentHTML('beforeend', myHtmlArticle(elem));
 });
 
-// Popup section
+// Popup section//
 function openPopup() {
   document.querySelector('#popup-section').innerHTML += `<div class="popup-container">
     <div class="popup" id="popup"> 
