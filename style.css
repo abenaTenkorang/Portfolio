@@ -53,7 +53,7 @@ body {
   height: auto;
 }
 
-.hamburger {
+.hamburger-icon {
   z-index: 100;
   top: 1rem;
   right: 1rem;
@@ -771,6 +771,16 @@ ul li {
   cursor: pointer;
 }
 
+.er-msg {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: red;
+  display: none;
+}
+
 .pop-button:hover {
   background: #0f1c94;
   color: white;
@@ -800,7 +810,7 @@ ul li {
     margin: 0 10% 0 22%;
   }
 
-  .hamburger {
+  .hamburger-icon {
     display: none;
   }
 
