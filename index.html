@@ -102,6 +102,45 @@
 
 
 <section class="all-cards" id="portfolio">
+  <article class="my-design">
+    <div class="first-card">
+      <div class="card-image">
+        <img
+            class="first-work-one"
+            src=${myObj.image}
+            alt="Nature"
+          />
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">${myObj.title}</h2>
+        <div class="card-info">
+          <p class="card-info-item-canopy">${myObj.canopy}</p>
+          <img class="circle-img" src="./images/circle.png" alt="Circle">
+          <p class="card-info-item">Back End Dev</p>
+          <img class="circle-img" src="./images/circle.png" alt="Circle">
+          <p class="card-info-item">2015</p>
+        </div>
+
+        <p class="card-description">
+         ${myObj.about}
+        </p>
+
+        <ul class="card-list">
+        ${myObj.card_list.map((elem) => `<li class="card-list-tags">${elem}</li>`).join('')}
+         
+        </ul>
+
+        <div class="button">
+        <a href="#"  onclick="openPopup()">
+            <button type="submit" class="card-link">
+            See Project
+            </button>
+        </a>
+         </div>
+
+      </div>
+    </div>
+  </article>
 </section>
     
 
