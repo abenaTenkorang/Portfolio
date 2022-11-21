@@ -770,6 +770,16 @@ ul li {
   cursor: pointer;
 }
 
+.er-msg {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: red;
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
   .first-work-one {
     max-width: 100%;
