@@ -199,7 +199,10 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-//local storage
+// local storage
+const username = document.getElementById('fname');
+const message = document.getElementById('textarea');
+
 form.addEventListener('input', () => {
   localStorage.setItem('name-input', username.value);
   localStorage.setItem('email-input', email.value);
