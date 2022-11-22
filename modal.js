@@ -198,3 +198,14 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+//local storage
+form.addEventListener('input', () => {
+  localStorage.setItem('name-input', username.value);
+  localStorage.setItem('email-input', email.value);
+  localStorage.setItem('msg-input', message.value);
+});
+
+username.value = localStorage.getItem('name-input');
+email.value = localStorage.getItem('email-input');
+message.value = localStorage.getItem('msg-input');
