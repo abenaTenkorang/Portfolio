@@ -61,6 +61,14 @@ Contributions, issues, and feature requests are welcome!
 
 
 **Collaborator**
+
+👤 **Haliljon Juraboev**
+
+- GitHub: [@githubhaliljon](https://github.com/haliljon)
+- Twitter: [@twitterhaliljon1](https://twitter.com/haliljon1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juraboev-haliljon)
+
+
 - GitHub: [@shegy28](https://github.com/shegy28/)
 - Twitter: [@shegy28](https://twitter.com/shegy28)
 - Github: [@Franky237](https://github.com/Franky237)
