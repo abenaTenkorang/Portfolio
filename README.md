@@ -4,9 +4,10 @@
 ## 📝 License
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> A simple microverse project.
+## Project Name
+> Portfolio
 
-## Built With
+
 
 
 ## Getting started
@@ -32,21 +33,14 @@ Access the the online version of my application with this link
 [Live Demo](https://abenatenkorang.github.io/Portfolio/)
 
 
-## Build With
-
 - Editor : Visual studio code
 
+
+## Built With
 - Languages 
   - [ ] HTML
   - [ ] CSS
   - [ ] JavaScript
-
-## Walkthrough video
-https://www.loom.com/share/6e0edae4759c4584b68ecd13aefc79ce
-
-
-
-
 
 ## Authors
 
@@ -62,11 +56,12 @@ Contributions, issues, and feature requests are welcome!
 
 
 **Collaborator**
-- GitHub: [@shegy28](https://github.com/shegy28/)
-- Twitter: [@shegy28](https://twitter.com/shegy28)
-- Github: [@Franky237](https://github.com/Franky237)
-- LinkedIn [@FrankzFuhnwi](https://www.linkedin.com/in/frankz-fuhnwi-21b59b223/)
 
+👤 **Haliljon Juraboev**
+
+- GitHub: [@githubhaliljon](https://github.com/haliljon)
+- Twitter: [@twitterhaliljon1](https://twitter.com/haliljon1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juraboev-haliljon)
 
 
 Feel free to check the [issues page](../../issues/](https://github.com/abenaTenkorang/portfolio-project/issues).
