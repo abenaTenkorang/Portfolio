@@ -40,12 +40,6 @@ Access the the online version of my application with this link
   - [ ] CSS
   - [ ] JavaScript
 
-## Walkthrough video
-https://www.loom.com/share/6e0edae4759c4584b68ecd13aefc79ce
-
-
-
-
 
 ## Authors
 
