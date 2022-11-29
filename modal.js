@@ -87,7 +87,7 @@ data.forEach((elem) => {
   cardHolder.insertAdjacentHTML('beforeend', myHtmlArticle(elem));
 });
 
-// Popup section
+// Popup section//
 function openPopup() {
   document.querySelector('#popup-section').innerHTML += `<div class="popup-container">
     <div class="popup" id="popup"> 
@@ -133,17 +133,16 @@ function openPopup() {
                         </ul>
                     </div>
                     <div class="pop-button-div">
-                        
+                     
                             <button type="submit" class="see-project pop-button">
                             See Live
                             <img src="./images/g.png" alt="">
                             </button>
-                        
+                      
                         <button type="submit" class="see-project pop-button">
                             See Source
                             <img src="./images/h.png" alt="">
                             </button>
-                        </a>
                     </div>
                 </div>
                 <div id ="mobile-popup-langs"class="popup-langs">
@@ -155,17 +154,16 @@ function openPopup() {
                         </ul>
                     </div>
                     <div class="pop-button-div">
-                        
+                       
                             <button type="submit" class="see-project pop-button">
                             See Live
                             <img src="./images/g.png" alt="">
                             </button>
-                        
-                        <button type="submit" class="see-project pop-button">
+                       
+                          <button type="submit" class="see-project pop-button">
                             See Source
                             <img src="./images/h.png" alt="">
-                            </button>
-                        
+                           </button>
                     </div>
                     
                 </div>
