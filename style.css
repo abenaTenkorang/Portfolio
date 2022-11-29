@@ -836,8 +836,8 @@ ul li {
 
   .header-section {
     width: 100%;
-    background-image: url(./images/Header-bg.png);
-    background-position: center;
+    background-image: url(./images/header-bg.png);
+    background-position: unset;
     background-repeat: no-repeat;
     padding: 200px;
     justify-content: center;
