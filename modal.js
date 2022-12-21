@@ -1,12 +1,12 @@
 const data = [
   {
     id: 'project-1',
-    title: 'Tonic',
-    canopy: 'Canopy',
-    card_list: ['html', 'css', 'javascript', 'python'],
+    title: 'Awesome books',
+    canopy: 'User',
+    card_list: ['html', 'css', 'javascript'],
     image: 'images/one.png',
     about:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required..',
+      'Awesome Books is a website that allow users to create a book with title and author name and add to their books list on the page.',
   },
   {
     id: 'project-2',
@@ -53,9 +53,9 @@ const myHtmlArticle = (myObj) => {
             <div class="card-info">
               <p class="card-info-item-canopy">${myObj.canopy}</p>
               <img class="circle-img" src="./images/circle.png" alt="Circle">
-              <p class="card-info-item">Back End Dev</p>
+              <p class="card-info-item">Front End Dev</p>
               <img class="circle-img" src="./images/circle.png" alt="Circle">
-              <p class="card-info-item">2015</p>
+              <p class="card-info-item">2022</p>
             </div>
 
             <p class="card-description">
@@ -101,9 +101,9 @@ function openPopup() {
             <div class="card-info">
               <p class="card-info-item-canopy">CANOPY</p>
               <img class="circle-img" src="./images/circle.png" alt="Circle">
-              <p class="card-info-item">Back End Dev</p>
+              <p class="card-info-item">Front End Dev</p>
               <img class="circle-img" src="./images/circle.png" alt="Circle">
-              <p class="card-info-item">2015</p>
+              <p class="card-info-item">2022</p>
             </div>
             <div id="desktop-popup" class="popup-img1">
                 <img src="./images/Snapshoot Portfolio.png" alt="popup image 1">
